@@ -13,6 +13,7 @@ variable "prefix" {
 variable "environment" {
   type        = string
   description = "(Required) Environment of all resources"
+  default     = "development"
 }
 
 variable "billing_code" {
