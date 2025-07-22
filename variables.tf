@@ -17,7 +17,7 @@ variable "environment" {
 
 variable "playbook_repository" {
   type        = string
-  description = "(Required) URIL of ansible"
+  description = "(Required)    URIL of ansible"
 }
 
 variable "billing_code" {
