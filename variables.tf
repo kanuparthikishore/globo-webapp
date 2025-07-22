@@ -15,6 +15,11 @@ variable "environment" {
   description = "(Required) Environment of all resources"
 }
 
+variable "playbook_repository" {
+  type        = string
+  description = "(Required)    URIL of ansible"
+}
+
 variable "billing_code" {
   type        = string
   description = "(Required) Billing code for network resources"
@@ -45,7 +50,7 @@ variable "tfe_organization" {
 
 variable "tfe_workspace_name" {
   type        = string
-  description = "(Required) VPC ID of VPC for application deployment."
+  description = "(Required) VPC ID of VPC        for application deployment."
 }
 
 
