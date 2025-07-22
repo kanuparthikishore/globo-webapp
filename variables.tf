@@ -45,7 +45,7 @@ variable "tfe_organization" {
 
 variable "tfe_workspace_name" {
   type        = string
-  description = "(Required) VPC ID of VPC        for application deployment."
+  description = "(Required) VPC ID of VPC   for application deployment."
 }
 
 
