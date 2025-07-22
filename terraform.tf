@@ -10,3 +10,14 @@ terraform {
     }
   }
 }
+
+terraform {
+  cloud {
+    # Organization ID
+    organization = "kanuparthi"
+    # Workspace ID
+    workspaces {
+      name = "web-app-dev"
+    }
+  }
+}
